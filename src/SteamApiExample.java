@@ -6,11 +6,10 @@ import java.net.http.HttpResponse;
 public class SteamApiExample {
     public static void main(String[] args) {
         // Clé API web Steam
-        String apiKey = "F7F12002E531112607CDD5EACE530AEA";
+        String apiKey = "xxxxxxxxxxxxxxx";
 
         // ID Steam de l'utilisateur
         String steamId = "xxxxxxxxxxxxxx";
-
 
         // URL pour récupérer les informations sur l'utilisateur
         String profileUrl = "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/" +
